@@ -9,6 +9,7 @@
 using namespace std;
 
 class Savest {
+
 private:
     string nameFund;
     float valueFund;
@@ -21,8 +22,8 @@ public:
     //Funciones
     void show();
     float getAmount();
-    Savest dataSavings(int i);
     Savest dataInvestments(int i);
+    Savest dataSavings(int i);
 };
 
 

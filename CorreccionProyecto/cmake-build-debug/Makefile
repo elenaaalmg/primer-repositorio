@@ -46,10 +46,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\proyecto2"
+CMAKE_SOURCE_DIR = "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\CorreccionProyecto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\proyecto2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\CorreccionProyecto\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\proyecto2\cmake-build-debug\CMakeFiles" "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\proyecto2\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\CorreccionProyecto\cmake-build-debug\CMakeFiles" "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\CorreccionProyecto\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\proyecto2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\CorreccionProyecto\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -118,6 +118,30 @@ proyecto2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyecto2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto2.dir\build
 .PHONY : proyecto2\fast
 
+CalcuRaBraLena.obj: CalcuRaBraLena.cpp.obj
+.PHONY : CalcuRaBraLena.obj
+
+# target to build an object file
+CalcuRaBraLena.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyecto2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto2.dir\CalcuRaBraLena.cpp.obj
+.PHONY : CalcuRaBraLena.cpp.obj
+
+CalcuRaBraLena.i: CalcuRaBraLena.cpp.i
+.PHONY : CalcuRaBraLena.i
+
+# target to preprocess a source file
+CalcuRaBraLena.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyecto2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto2.dir\CalcuRaBraLena.cpp.i
+.PHONY : CalcuRaBraLena.cpp.i
+
+CalcuRaBraLena.s: CalcuRaBraLena.cpp.s
+.PHONY : CalcuRaBraLena.s
+
+# target to generate assembly for a file
+CalcuRaBraLena.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyecto2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto2.dir\CalcuRaBraLena.cpp.s
+.PHONY : CalcuRaBraLena.cpp.s
+
 Savest.obj: Savest.cpp.obj
 .PHONY : Savest.obj
 
@@ -142,30 +166,6 @@ Savest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyecto2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto2.dir\Savest.cpp.s
 .PHONY : Savest.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyecto2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto2.dir\main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyecto2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto2.dir\main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyecto2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto2.dir\main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -175,12 +175,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... proyecto2
+	@echo ... CalcuRaBraLena.obj
+	@echo ... CalcuRaBraLena.i
+	@echo ... CalcuRaBraLena.s
 	@echo ... Savest.obj
 	@echo ... Savest.i
 	@echo ... Savest.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

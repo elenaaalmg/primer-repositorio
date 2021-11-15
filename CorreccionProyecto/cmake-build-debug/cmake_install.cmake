@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2
+# Install script for directory: C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

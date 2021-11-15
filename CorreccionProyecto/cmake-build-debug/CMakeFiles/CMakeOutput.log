@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
@@ -45,27 +45,27 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_8f7fd\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_8f7fd.dir\build.make /nologo -L                  CMakeFiles\cmTC_8f7fd.dir\build
-Building C object CMakeFiles/cmTC_8f7fd.dir/CMakeCCompilerABI.c.obj
-	"D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_8f7fd.dir\CMakeCCompilerABI.c.obj.d --working-dir="C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\proyecto2\cmake-build-debug\CMakeFiles\CMakeTmp" --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @C:\Users\elena\AppData\Local\Temp\nmB9B1.tmp
-Linking C executable cmTC_8f7fd.exe
-	"D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_8f7fd.dir --rc="D:\Windows Kits\10\bin\10.0.19041.0\x86\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.19041.0\x86\mt.exe" --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_8f7fd.dir\objects1.rsp @C:\Users\elena\AppData\Local\Temp\nmBD7A.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_573fe\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_573fe.dir\build.make /nologo -L                  CMakeFiles\cmTC_573fe.dir\build
+Building C object CMakeFiles/cmTC_573fe.dir/CMakeCCompilerABI.c.obj
+	"D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_573fe.dir\CMakeCCompilerABI.c.obj.d --working-dir="C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\CorreccionProyecto\cmake-build-debug\CMakeFiles\CMakeTmp" --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @C:\Users\elena\AppData\Local\Temp\nmA229.tmp
+Linking C executable cmTC_573fe.exe
+	"D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_573fe.dir --rc="D:\Windows Kits\10\bin\10.0.19041.0\x86\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.19041.0\x86\mt.exe" --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_573fe.dir\objects1.rsp @C:\Users\elena\AppData\Local\Temp\nmA4BA.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_798c8\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_798c8.dir\build.make /nologo -L                  CMakeFiles\cmTC_798c8.dir\build
-Building CXX object CMakeFiles/cmTC_798c8.dir/CMakeCXXCompilerABI.cpp.obj
-	"D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_798c8.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir="C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\proyecto2\cmake-build-debug\CMakeFiles\CMakeTmp" --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @C:\Users\elena\AppData\Local\Temp\nmCAE7.tmp
-Linking CXX executable cmTC_798c8.exe
-	"D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_798c8.dir --rc="D:\Windows Kits\10\bin\10.0.19041.0\x86\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.19041.0\x86\mt.exe" --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_798c8.dir\objects1.rsp @C:\Users\elena\AppData\Local\Temp\nmCC9D.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_203bf\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_203bf.dir\build.make /nologo -L                  CMakeFiles\cmTC_203bf.dir\build
+Building CXX object CMakeFiles/cmTC_203bf.dir/CMakeCXXCompilerABI.cpp.obj
+	"D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_203bf.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir="C:\Users\elena\OneDrive\Documentos\UNAM\Computacion I\CorreccionProyecto\cmake-build-debug\CMakeFiles\CMakeTmp" --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @C:\Users\elena\AppData\Local\Temp\nmAB8F.tmp
+Linking CXX executable cmTC_203bf.exe
+	"D:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_203bf.dir --rc="D:\Windows Kits\10\bin\10.0.19041.0\x86\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.19041.0\x86\mt.exe" --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_203bf.dir\objects1.rsp @C:\Users\elena\AppData\Local\Temp\nmACF8.tmp
 
 
 

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2/Savest.cpp" "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2/cmake-build-debug/CMakeFiles/proyecto2.dir/Savest.cpp.obj"
-  "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2/main.cpp" "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/proyecto2/cmake-build-debug/CMakeFiles/proyecto2.dir/main.cpp.obj"
+  "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto/CalcuRaBraLena.cpp" "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto/cmake-build-debug/CMakeFiles/proyecto2.dir/CalcuRaBraLena.cpp.obj"
+  "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto/Savest.cpp" "C:/Users/elena/OneDrive/Documentos/UNAM/Computacion I/CorreccionProyecto/cmake-build-debug/CMakeFiles/proyecto2.dir/Savest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

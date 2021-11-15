@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/proyecto2.dir/CalcuRaBraLena.cpp.obj"
   "CMakeFiles/proyecto2.dir/Savest.cpp.obj"
-  "CMakeFiles/proyecto2.dir/main.cpp.obj"
   "proyecto2.exe"
   "proyecto2.exe.manifest"
   "proyecto2.lib"
